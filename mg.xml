@@ -5,15 +5,15 @@
     <Brand>MG</Brand>
     <Model>Midget</Model>
     <Engine>12V</Engine>
-    <Comments>First Try</Comments>
-    <DateModified>2013-08-25</DateModified>
+    <Comments>First running config</Comments>
+    <DateModified>2013-10-20</DateModified>
   </Description>
   <IgnitionCurves>
     <AdvanceCurve>
       <MaxRPM>6000</MaxRPM>
       <AdvancePoint>
         <RPM>500</RPM>
-        <AdvanceDegrees>0</AdvanceDegrees>
+        <AdvanceDegrees>3</AdvanceDegrees>
       </AdvancePoint>
       <AdvancePoint>
         <RPM>1500</RPM>
@@ -37,7 +37,7 @@
       </AdvancePoint>
     </AdvanceCurve>
     <VacuumCurve>
-      <StartMAP>0</StartMAP>
+      <StartMAP>1500</StartMAP>
       <VacuumPoint>
         <kP>0</kP>
         <VacuumDegrees>10</VacuumDegrees>
