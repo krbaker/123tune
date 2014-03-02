@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tune xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Description>
+    <Author>Keith Baker</Author>
+    <Brand>MG</Brand>
+    <Model>Midget</Model>
+    <Engine>12V</Engine>
+    <Comments>First Try</Comments>
+    <DateModified>2013-08-25</DateModified>
+  </Description>
+  <IgnitionCurves>
+    <AdvanceCurve>
+      <MaxRPM>6000</MaxRPM>
+      <AdvancePoint>
+        <RPM>500</RPM>
+        <AdvanceDegrees>0</AdvanceDegrees>
+      </AdvancePoint>
+      <AdvancePoint>
+        <RPM>1500</RPM>
+        <AdvanceDegrees>9</AdvanceDegrees>
+      </AdvancePoint>
+      <AdvancePoint>
+        <RPM>1900</RPM>
+        <AdvanceDegrees>15</AdvanceDegrees>
+      </AdvancePoint>
+      <AdvancePoint>
+        <RPM>2900</RPM>
+        <AdvanceDegrees>24</AdvanceDegrees>
+      </AdvancePoint>
+      <AdvancePoint>
+        <RPM>4200</RPM>
+        <AdvanceDegrees>36</AdvanceDegrees>
+      </AdvancePoint>
+      <AdvancePoint>
+        <RPM>8000</RPM>
+        <AdvanceDegrees>36</AdvanceDegrees>
+      </AdvancePoint>
+    </AdvanceCurve>
+    <VacuumCurve>
+      <StartMAP>0</StartMAP>
+      <VacuumPoint>
+        <kP>0</kP>
+        <VacuumDegrees>10</VacuumDegrees>
+      </VacuumPoint>
+      <VacuumPoint>
+        <kP>50</kP>
+        <VacuumDegrees>10</VacuumDegrees>
+      </VacuumPoint>
+      <VacuumPoint>
+        <kP>66</kP>
+        <VacuumDegrees>0</VacuumDegrees>
+      </VacuumPoint>
+      <VacuumPoint>
+        <kP>100</kP>
+        <VacuumDegrees>0</VacuumDegrees>
+      </VacuumPoint>
+      <VacuumPoint>
+        <kP>200</kP>
+        <VacuumDegrees>-0</VacuumDegrees>
+      </VacuumPoint>
+    </VacuumCurve>
+  </IgnitionCurves>
+</Tune>
